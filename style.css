@@ -1,0 +1,726 @@
+#headLine{
+    height: 96px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: start;
+    direction: rtl;
+    background-color: white;
+    border-bottom: 2px solid tan ;
+    border-bottom-left-radius: 2px solid tan;
+    border-radius: 0px 0px 0px 40px;
+    position: fixed;
+    top: 0px;
+    font-family: Segoe UI Light;
+    z-index: 9999;
+    #threeLines{
+    margin: 30px;
+    font-size: xx-large;
+    }
+    #speaker{
+        margin-top: 25px;
+        height: 40px;
+    }
+    #logo{
+        img{
+            height: 50px;
+            margin-top: 20px;
+        }
+    }
+    #hachraza{
+        margin-top: 15px;
+        margin-left: 10px;
+        p{
+           animation: slide 2s ease-in-out infinite;
+           font-size: small;
+        }
+    }
+    #hachraza p:hover{
+          animation: none 1s;
+    }
+    }
+    @keyframes slide{
+        0%{
+            transform:translateX(0);
+        }
+         50%{
+            transform:translateX(-50px);
+        }
+        100%{
+            transform:translateX(0);
+        }
+    }
+    #pause{
+        margin-top: 30px;
+        height: 40px;
+        color: rgb(184, 131, 156);
+    }
+    #nituv{
+    width: 30%;
+    display:inline-flex ;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    #options{
+        padding: 5px;
+        border-radius: 15px;
+        box-shadow:1px 1px 2px 2px rgb(184, 184, 184);
+        height: 250px;
+        background-color: white;
+            padding: 7px;
+            visibility: hidden;
+            position: absolute;
+            #invisbleOption{
+                padding: 6px;
+                border-radius: 5px;
+            }
+        #invisbleOption:hover{
+         background-color: rgb(255, 220, 220);
+        }
+        }
+         #kehilot:hover #chetz{
+                transform: rotate(180deg);
+        }
+        #kehilot:hover #options{
+                visibility: visible;
+        }
+       
+    }
+     #b:hover{
+            font-weight: bold;
+        }
+    #chair{
+        margin-top: 15px;
+        height: 60px;
+    }
+    #truma{
+        margin: 20px;
+        width: 110px;
+        height:30px;
+        padding: 6px;
+        text-align: center;
+        background-color: brown;
+        border-radius: 50px;
+        color: white;
+    }
+    #truma:hover{
+            background-color: rgb(123, 33, 33);
+    }
+
+ #takua{
+        text-align: center;
+        width: 200px;
+        color: white;
+        font-family: Segoe UI Semibold;
+        background:linear-gradient(to bottom, rgb(234, 61, 61),rgb(243, 86, 86),rgb(225, 109, 109));
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        direction: rtl;
+        border-radius: 20px 0px 0px 90px;
+        h1{
+            font-family: 'FtPilKahol2';
+        }
+ }
+ @font-face{
+    font-family: 'FtPilKahol2';
+    src: url(FONT/FtPilKahol2.woff2)format('woff2'),url(FONT/FtPilKahol2.woff)format('woff');
+ }
+ #ourstory{
+    height: 430px;
+    text-align: center;
+    margin-top:150px;
+    font-family: Segoe UI Semibold;
+    
+    font-size: 20px;
+    h1{
+        font-family: 'FtPilKahol2';
+        font-weight: normal;
+        margin-bottom: -60px;
+    }
+    h2{
+        margin-bottom: -10px;
+    }
+    p{
+        direction: rtl;
+    }
+ }
+ #forAll{
+        margin-left: 45%;
+        margin-top: 20px;
+        height: 30px;
+        width:160px;
+        background:linear-gradient(to left, rgb(156 0 0),rgb(200 25 25),rgb(190 42 42),rgb(207 54 54));
+        color: white;
+        border-radius: 40px;
+        text-align: center;
+        padding: 4px;
+        font-size:15px;
+         font-family:Segoe UI Semibold ;
+    }
+    #forAll:hover{
+        width:240px;
+        font-size: 18px;
+        margin-left: 42%;
+        transition: all 1.5s linear;
+    }
+ #numbers{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 200px;
+    text-align: center;
+    font-size:30px;
+    font-family:Segoe UI Semibold ;
+    column-gap: 5px;
+    padding: 20px;
+    
+    #headnumbers{
+
+    }
+    #line1{
+       
+        margin-bottom: 50px;
+    }
+    #heart{
+        font-family: 'FtPilKahol2';
+        margin-left: 67%;
+    }
+    #bodynumbers{
+        direction: rtl;
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+        #mitnadvim{
+            h1{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+
+    }
+
+ }
+  #line1{
+        width: 70px;
+        height: 4px;
+        border-radius: 10px;
+        transform: rotate(-1.8deg);
+        margin-top: 20px;
+        margin-left: 48%;
+        background: linear-gradient(to right, #ff9a8b, #ff6a88);
+    }
+  .give{
+    padding: 25px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(248, 242, 240);
+    text-align: center;
+    #threecircles{
+        margin-left: 49%;
+        margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            width:3%;
+            #circle{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: rgb(223, 142, 139);
+            }
+        }
+    #around{
+        height: 30px;
+        margin-top: 30px;
+        p{font-size: 35px;
+            font-family:Segoe UI Semibold ;
+   }
+   
+   }
+   
+    #allSquare{
+        width: 80%;
+        height: 45%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-top: 6%;
+        direction: rtl;
+        #square1,#square2, #square3{
+            background-color: white;
+            width: 30%;
+            height: 100%;
+            border-radius: 20px;
+            border: solid rgb(248, 203, 203) 2px;
+            direction: rtl;
+            #headSquare{
+                margin-right: 3%;
+                display: flex;
+            img{
+                margin-top: 20px;
+                height: 50px;
+            }
+            h4{
+                font-size: 22px;
+                font-family:Segoe UI Semibold ;
+            }
+        }
+          p{
+            font-size: 20px;
+          } 
+          
+        }
+        #square1:hover,#square2:hover, #square3:hover{
+        background:linear-gradient(to bottom, rgb(249, 102, 83), rgb(240, 145, 145),rgb(242, 171, 171));
+        border: solid rgb(186 34 34) 2px;
+        transition: all 1.5s linear;
+        }
+    }
+    
+     }
+     #form{
+        margin-top: 100px;
+        height: 800px;
+        width: 100%;
+        background: linear-gradient(180deg, #fbcbcd 0%, #ffddde 50%, #ffeeee 100%);
+        border-radius: 15px;
+        padding-top: 10px;
+        direction: rtl;
+        #formhead{
+           direction: rtl;
+           margin-right: 80px;
+           margin-bottom: 70px;
+           h1{
+             font-family: 'FtPilKahol2';
+             font-weight: normal;
+             margin-bottom: -30px;
+           }
+           h2{
+            font-family: Segoe UI Semibold;
+           }
+        }
+        #formcontain{
+            display: flex;
+            direction: rtl;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            #name{
+                height: 50px;
+                width: 25%;
+                border-radius: 10px;
+                margin-right: 9px;
+                border: 1px black solid;
+            }
+           } 
+           #opop{
+                background-color: white;
+                border-radius: 10px;
+            }
+            #opop:hover{
+                background-color: rgb(226, 130, 130);
+            }
+            #help{
+                height: 70px;
+                width: 50%;
+                border-radius: 10px;
+                margin-right: 9px;
+                border: 1px black solid;
+                margin-right: 65px;
+            }
+            #yesno{
+                margin-top: 50px;
+                margin-right: 60px;
+                font-size: 20px;
+            }
+    }
+    #sending{
+        height: 40px;
+        width: 100px;
+        background:linear-gradient(to left, rgb(234, 61, 61),rgb(243, 86, 86),rgb(225, 109, 109));
+        border-radius: 30px;
+        text-align: center;
+        font-size: 15px;
+        padding-top:3px ;
+        font-family: Segoe UI Semibold;
+        border: 0px;
+        margin-right: 60px;
+        margin-top: 20px;
+        font-weight:normal;
+    }
+    #sending:hover{
+        width: 150px;
+        transition:width 1.5s linear;
+    }
+     #article{
+        height: 700px;
+        margin-top: 70px;
+        #headarticle{
+            padding: 0px;
+            direction: rtl;
+            margin-right: 200px;
+            font-size: 25px;
+            #h1{
+                margin-top: 150px;
+                 margin-bottom: -40px; ;
+                 font-family: 'FtPilKahol2';
+                 font-size: 27px;
+            }
+            font-family:Segoe UI Semibold ;
+        }
+        #bodyarticle{
+            height: 400px;
+            background-color: white;
+            display: flex;
+            direction: rtl;
+            justify-content: space-around;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 100px;
+            #maor{
+                margin-top: 2%;
+                direction: ltr;
+                width: 40%;
+                height: 90%;
+                background:linear-gradient(to bottom, rgb(61, 116, 161),rgb(37, 148, 199),rgb(109, 162, 218));
+                border-radius: 50px 10px 10px 10px;
+                .backgroundimg {
+                    display: flex;
+                    flex-direction: column;
+                    gap:20px ;
+                    direction: rtl;
+                    width: 98%;
+                    height: 100%;
+                    background-image: url(maor.jpg);
+                    background-position: 0px;
+                    max-width: 99%;
+                    max-height: 100%;
+                    object-fit: cover;
+                    border-radius:50px 5px 0px 10px ;
+                     #maorpic{
+                    
+                    }
+                    #blackopacity{
+                    background-image: linear-gradient(180deg, rgba(255,0,0,0), rgb(0, 0, 0,0.8));
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50px 10px 10px 10px;
+                    #maorlego{
+                   margin-top: 30%;
+                   margin-right: 20px;
+                   font-family:Segoe UI Semibold;
+                   font-size: 25px;
+                   color: white;
+                   opacity: 100%;
+                   height: 40px;
+                }
+                #pmaor{
+                    direction: rtl;
+                    color: white;
+                    font-family:Segoe UI Semibold ;
+                     margin-right: 20px;
+                }
+                #threedives{
+                    display: flex;
+                    flex-direction: row;
+                    width: 90%; 
+                    justify-content: space-between;
+                    padding: 5px;
+                    margin-top: 0px;
+                    #sartanvolunteer{
+                        display: flex;
+                    }
+                    #cholesartan{
+                        border-radius: 40px;
+                        width: 100px;
+                        height: 30px;
+                        border:solid white 1px;
+                        color: white;
+                        text-align: center;
+                        padding-top: 3px;
+                        
+                        font-family:Segoe UI Semibold ;
+                    }
+                    #cholesartan:hover{
+                        background-color: white;
+                        color: black;
+                        transition: all 1.5s linear;
+                    }
+                    #threepoints{
+                       border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        border:solid white 1px;
+                        color: white;
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    #threepoints:hover{
+                        background-color: #969696;
+                        opacity: 0.5;
+                    }
+                    #readmore{
+                       position: relative;
+                        color: white;
+                        font-family:Segoe UI Semibold ;
+                        
+                    }
+                    #more{
+                        width: 30px;
+                        height: 30px;
+                        background-color: white;
+                        border-radius: 50%;
+                        img{
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                            
+                        }
+                    }
+                    #more:hover{
+                        background-color: white;
+                        width:120px;
+                        border-radius: 40px;
+                        color: black;
+                        transition: all 3s ;
+                        transition-timing-function: ease;
+                        img{
+                             margin-left: 0px;
+                        }
+                    }
+                    
+                }
+                    }
+                  
+                }
+                }
+                
+                #small{
+                margin-top: 2%;
+                width: 20%;
+                height: 90%;
+                background-color: #d8c9b5;
+                border-radius:50px 5px 0px 10px ;
+                    #maor{
+                        height: 50%;
+                        width: 100%;
+                        #grandfatherpic{
+                            height: 100%;
+                            width: 100%;
+                            border-radius:50px 5px 0px 10px ;
+                            background-image: url(grand.jpg);
+                            #cholesartan{
+                                margin-top: 120%;
+                            }
+                            #threepoints{
+                                margin-top: 43%;
+                            }
+                        }
+                        #tismopic{
+                            height: 100%;
+                            width: 100%;
+                            border-radius:50px 5px 0px 10px ;
+                            background-image: url(childs.jpg);
+                            #cholesartan{
+                                margin-top: 120%;
+                            }
+                            #threepoints{
+                                margin-top: 43%;
+                            }
+                        }
+                    }
+                #bottomsmall{
+                height: 50%;
+                width: 100%;
+                margin-right: 8px;
+                font-family:Segoe UI Semibold ;
+               h1{
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               }
+                p{
+                    font-size:15px;
+                }
+                #oneline{
+                    display: flex;
+                    gap: 10px;
+                    margin-right:60%;
+                   img{
+                    border-radius: 50%;
+                   }
+                }
+                }
+                }
+                
+                
+            #maor:hover{
+                #backgroundimg{
+                    background-size: 700px;
+                    height: 500px;
+                    max-width:99% ;
+                      transition: all 5s linear;
+                }
+              
+            }
+        }
+    }
+
+     footer{
+        height: 700px;
+        background-color: #ded1bd;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+        font-family:Segoe UI Light ;
+        color: rgb(75, 52, 16);
+        margin-top: 100px;
+        #details{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            margin-top: 5%;
+            margin-right: 5%;
+            #wehere{
+            width: 40%;
+            margin-right:150px;
+            h2{
+               font-family: 'FtPilKahol2';
+               margin-top: -5%;
+               margin-bottom: -10%;
+            }
+            h1{
+                font-size: 50px;
+            }
+            #adress{
+           #divadress{
+            margin: 15px;
+           }
+            }
+             #newz{
+                margin-top: 40px;
+                display: flex;
+                flex-direction:column;
+            #new{
+                margin-top: 40px;
+            margin-left: 0px;
+            background-color: #ded1bd;
+            border-radius: 10px;
+            height: 40px;
+            width: 200px;
+            border-color:  rgb(75, 52, 16);;
+        }
+             }
+        }
+         #side{
+            width: 60%;
+            #joinus{
+            height: 30%;
+            display: flex;
+            flex-direction: row;
+            column-gap: 5px;
+            justify-content: end;
+            margin-left: 15%;
+            h1{
+                font-size: 15px;
+            }
+            #volunteer{
+                height: 25px;
+                background-color: white;
+                border-radius: 20px;
+                width: 80px;
+                padding: 5px;
+                text-align: center;
+            }
+            #volunteer:hover{
+                background-color: brown;
+                color: white;
+                transition:all 1s linear;
+            }
+
+                }
+            #list{
+                    display: flex;
+                    gap: 30px;
+                     margin-top: -60px;
+                     margin-right: -150px;
+            #more{
+            h1{
+                font-size: 20px;
+                font-weight: bold;
+                color: rgb(75, 52, 16);
+            }
+            li{
+                list-style: none;
+                margin-top: 5px;
+                margin-left: 20px;
+            }
+            li:hover{
+               font-weight: bold; 
+            }
+                }
+             }
+           }
+           } 
+           #bottom{
+            margin-top: -50px;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            
+            justify-content: space-between;
+            #zchuyot{
+                margin-bottom: 0px;
+            }
+           }
+        }
+        #cookies{
+            position: fixed;
+            height: 40px;
+            width: 40px;
+            margin-left:40px;
+            margin-bottom: 0px;
+            background-color: white;
+            border-radius: 50%;
+            border:  #673233,1px,solid;
+            bottom: 150px;
+            img{
+                height:30px;
+                width: 30px;
+                margin-left: 12%;
+                margin-top: 12%;
+            }
+        }
+        #bua{
+            position: fixed;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            bottom: 60px;
+            left: 90px;
+            
+        }
+        #up{
+            position: fixed;
+            height: 40px;
+            width: 40px;
+            margin-left:40px;
+            margin-bottom: 0px;
+            background-color: white;
+            border-radius: 50%;
+            border:  #673233,1px,solid;
+            bottom: 20px;
+            img{
+                height:30px;
+                width: 30px;
+                margin-left: 12%;
+                margin-top: 12%;
+                border-radius: 50%;
+            }
+        }
+        
+    
+     
+    
+      
